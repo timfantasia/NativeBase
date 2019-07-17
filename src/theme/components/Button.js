@@ -148,7 +148,7 @@ export default (variables /*: * */ = variable) => {
         borderWidth: variables.borderWidth * 2
       },
       ".disabled": {
-        backgroundColor: null,
+        backgroundColor: "transparent",
         borderColor: variables.btnDisabledBg,
         borderWidth: variables.borderWidth * 2,
         "NativeBase.Text": {
